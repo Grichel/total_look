@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Total Look</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!--Menú-->
+    <nav class="topheader">
+      <a href="" class="logo"
+        ><img heigh="" width="" src="img/logo.jpg" alt="logo_total_look"
+      /></a>
+      <!-- BOTÓN HAMBURGUESA -->
+
+      <button class="menu-toggle" aria-label="Abrir menú">
+        &#9776;
+
+        <!-- Ícono de hamburguesa -->
+      </button>
+      <ul class="Menu-Horizontal">
+        <li>
+          <a href="">Menú</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Cerrar</a></li>
+            <li><a href="">Novedades</a></li>
+            <li><a href="">Ofertas</a></li>
+            <li><a href="">Blusas</a></li>
+            <li><a href="">Camisas</a></li>
+            <li><a href="">Vestidos</a></li>
+            <li><a href="">Pantalones</a></li>
+            <li><a href="">Faldas</a></li>
+          </ul>
+        </li>
+        <li><a href="">Busqueda</a></li>
+        <li>
+          <a href="">Iniciar sesión</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Inicio de sesión</a></li>
+            <li><a href="">Registrarse</a></li>
+          </ul>
+        </li>
+        <li><a href="">Ayuda</a></li>
+        <li><a href="">Cesta</a></li>
+      </ul>
+    </nav>
+    <!--Seccion Blusas-->
+    <section class="seccion-blusas">
+      <div class="div-gral-blusas">
+        <div class="div-blusas-texto">
+          <h2>Seccion Blusas</h2>
+          <p>
+            En esta sección se podra encontrar distintos modelos de blusas tanto
+            para una ocación casual a una formal.
+          </p>
+          <p>
+            Existen distintos modelos como tipos de telas. Encontraras por
+            ejemplo de satin, seda, entre otros.
+          </p>
+        </div>
+        <div class="div-blusas-img">
+          <img height="" width="" src="img/blusa.jpg" alt="Imagen de blusas" />
+        </div>
+      </div>
+    </section>
+    <!--Seccion Ofertas-->
+    <section class="seccion-ofertas">
+      <div class="div-gral-ofertas">
+        <div class="div-ofertas-texto">
+          <h2>Seccion Ofertas</h2>
+          <p>
+            En esta sección se podra encontrar distintas ofertas para todo tipo
+            de gustos. Todo por la temporada de Halloween!!!
+          </p>
+          <p>
+            Vas a encontrar desde faldas hasta blusas para que recrees tu
+            disfraz. Devora preciosa!!!
+          </p>
+        </div>
+        <div class="div-ofertas-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/zqkpqhj5JOw?si=B2tTBuldpoGV7BH1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--Seccion Formulario-->
+    <section class="seccion-formulario-registro">
+      <div class="div-cont-formulario-registro">
+        <h2>Registro</h2>
+        <p>Complete todos los campos con sus datos</p>
+        <form class="formulario-registro">
+          <!--input/label-->
+          <div class="campo">
+            <label for="nombre">Nombre(s)</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese sus nombres"
+            />
+          </div>
+          <div class="campo">
+            <label for="apellido">Apellido(s)</label>
+            <input
+              type="text"
+              id="apellido"
+              name="apellido"
+              placeholder="Ingrese sus apellidos"
+            />
+          </div>
+          <!--lista despegable-->
+          <div class="campo">
+            <label for="nombre">Pais:</label>
+            <select id="pais" name="pais">
+              <option value="">Seleccione un pais</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Brazil">Brazil</option>
+              <option value="Chile">Chile</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Ecuador">Ecuador</option>
+              <option value="Peru">Peru</option>
+            </select>
+          </div>
+          <!--checkboox-->
+          <div class="campo">
+            <label>Genero:</label>
+            <ul class="lista-checkboox">
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="Genero"
+                    value="Femenino"
+                  />Femenino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="Genero"
+                    value="Masculino"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="Genero"
+                    value="No especifica"
+                  />No especifica</label
+                >
+              </li>
+            </ul>
+          </div>
+          <!--radio-->
+          <div class="campo">
+            <label>Genero:</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input type="radio" name="genero" value="f" />Femenino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input
+                    type="radio"
+                    name="genero"
+                    value="m"
+                  />Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="radio" name="genero" value="n" />No
+                  especifica</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="Submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- PIE DE PAGINA -->
+    <section id="seccion-footer">
+      <footer class="seccion-footer">
+        <div class="div-footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="div-footer-brand">
+            <img src="img/logo.jpg" alt="Logo" class="footer-logo" />
+            <p>TOTAL LOOK</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="pdf\ley_proteccion_de_datos.pdf">Política de Privacidad</a>
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="pdf\ley_proteccion_de_datos.pdf">Protección de Datos</a>
+          </div>
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                heigh="3%"
+                width="3%"
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                heigh="3%"
+                width="3%"
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                heigh="3%"
+                width="3%"
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                heigh="3%"
+                width="3%"
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

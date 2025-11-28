@@ -1,0 +1,155 @@
+.topheader {
+  position: fixed;
+  background-color: #fdfbf7;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: #3e2e2c;
+  display: block;
+  padding: 15px 20px;
+}
+.Menu-Vertical {
+  display: none;
+  padding: 0;
+  position: absolute;
+  list-style: none;
+  width: 200px;
+  background-color: #fdfbf7;
+}
+.Menu-Horizontal li a:hover {
+  color: red;
+}
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+/*seccion-blusas*/
+.seccion-blusas {
+  padding: 60px 20px;
+  background-color: #fdfbf7;
+}
+.div-gral-blusas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0;
+  gap: 40px;
+}
+.div-blusas-texto {
+  flex: 1;
+}
+.div-blusas-texto h2 {
+  color: #2f4c3d;
+  margin-bottom: 15px;
+}
+.div-blusas-texto p {
+  color: #3e2e2c;
+  line-height: 2;
+}
+.div-blusas-img {
+  flex: 1;
+}
+.div-blusas-img img {
+  width: 100%;
+  max-width: 500px;
+}
+/*seccion-ofertas*/
+.seccion-ofertas {
+  padding: 60px 20px;
+  background-color: #fdfbf7;
+}
+.div-gral-ofertas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.div-ofertas-texto {
+}
+.div-ofertas-texto h2 {
+  color: #2f4c3d;
+  margin-bottom: 15px;
+}
+.div-ofertas-texto p {
+  color: #3e2e2c;
+  line-height: 2;
+}
+.div-ofertas-video {
+  flex: 1;
+}
+.div-ofertas-video iframe {
+  width: 100%;
+  max-width: 500px;
+}
+/*seccion formulario*/
+.seccion-formulario-registro {
+  background-color: #fdfbf7;
+  padding: 40px;
+  border: 3px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.div-cont-formulario-registro {
+  background-color: #fdfbf7;
+  padding: 30px;
+  border: 2px solid #3e2e2c;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+.campo {
+  background-color: #fdfbf7;
+  padding: 15px;
+  border: 1px solid #3e2e2c;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.formulario-registro label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #3e2e2c;
+}
+.formulario-registro input[type="text"],
+.formulario-registro select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #3e2e2c;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.lista-checkboox,
+.lista-radio {
+  list-style: none;
+  padding: 0.625rem;
+  margin: 0;
+  border: 0.063rem;
+  background-color: #fdfbf7;
+}
+.formulario-registro button {
+  background-color: #2f4c3d;
+  color: #fdfbf7;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  display: block;
+  margin: 0.625rem auto;
+}
+.seccion-footer {
+  padding: 60px 20px;
+  background-color: #fdfbf7;
+}
